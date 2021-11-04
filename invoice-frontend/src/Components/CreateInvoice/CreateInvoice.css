@@ -1,0 +1,83 @@
+.create-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.title h1 {
+  align-items: center;
+  color: rgb(7, 7, 7);
+}
+
+.product,
+.services,
+.total {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.product legend,
+.services legend,
+.total legend {
+  font-size: 25px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.productSelect,
+.servicesSelect {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.totalValue {
+  font-size: 16.9px;
+  border: solid 1px black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.addProductDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addColorBtn {
+  background-color: #b60000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.7s;
+}
+.addProduct:hover {
+  background-color: #055a00;
+}
+
+.saveInvoice {
+  background-color: #055a00;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.7s;
+}
+.saveInvoice:hover {
+  background-color: #b60000;
+}
+.saveBtnDiv {
+  margin-top: 30px;
+}

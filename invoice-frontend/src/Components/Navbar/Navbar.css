@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 9vh;
+  background: linear-gradient(-55deg, #055a00, #dad200, #b60000);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.appLogo {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+}
+
+a {
+  all: unset;
+  /* color: #464646; */
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.a-profile svg {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-top: 5px;
+}

@@ -1,0 +1,125 @@
+.invoicesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 9vh - 10vh);
+  overflow-y: scroll;
+}
+.invoiceContentWrapper {
+  margin-top: 20px;
+}
+.invoicesCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.invoicesCard h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.invoicesCardDiv {
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.invoicesListDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 9vh;
+  width: 300px;
+}
+.invoicesListDiv h4,
+.trashIcon {
+  font-size: 20px;
+  font-weight: 400;
+}
+.trashIcon {
+  color: red;
+}
+.invoicesListText {
+  width: 350px;
+}
+.invoicesListText h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+.invoicesListText button {
+  background-color: white;
+  color: black;
+  border: solid 2px #055a00;
+  padding: 10px;
+  border-radius: 20px;
+  width: 180px;
+}
+.invoicesListText button:focus {
+  background-color: #b60000;
+  color: white;
+  border: solid 2px #b60000;
+  padding: 10px;
+  border-radius: 20px;
+  width: 150px;
+}
+.invoicesListIconDiv {
+  text-align: center;
+  width: 80px;
+}
+.plusAddBtnDiv {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.plusAddBtn {
+  background-color: #055a00;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.modalDiv {
+  border: solid 2px #055a00;
+  padding: 5px;
+  border-radius: 20px;
+}
+.modalDivBody {
+  padding: 10px;
+}
+.modalDivBody h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.modalDivBody p {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.modalDivTotalDiv {
+  text-align: end;
+  margin-right: 10px;
+}
+.modalDivTotalDiv p {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.closeBtnDiv {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.closeBtnDiv button {
+  background-color: #055a00;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+}

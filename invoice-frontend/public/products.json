@@ -1,0 +1,106 @@
+[
+    {
+        "products": [
+            {
+                "id": "1",
+                "name": "Shampoo",
+                "value": "7,00"
+            },
+            {
+                "id": "2",
+                "name": "Cheese",
+                "value": "1,30"
+            },
+            {
+                "id": "3",
+                "name": "Mushrooms",
+                "value": "2,00"
+            },
+            {
+                "id": "4",
+                "name": "Can of red beans",
+                "value": "1,50"
+            },
+            {
+                "id": "5",
+                "name": "Tuna can",
+                "value": "1,00"
+            },
+            {
+                "id": "6",
+                "name": "Eggs",
+                "value": "2,60"
+            },
+            {
+                "id": "7",
+                "name": "Sugar",
+                "value": "1,10"
+            },
+            {
+                "id": "8",
+                "name": "Rice",
+                "value": "0,80"
+            },
+            {
+                "id": "9",
+                "name": "Hot sauce",
+                "value": "2,10"
+            },
+            {
+                "id": "10",
+                "name": "Vinegar",
+                "value": "1,40"
+            },
+            {
+                "id": "11",
+                "name": "Hazelnuts",
+                "value": "2,20"
+            },
+            {
+                "id": "12",
+                "name": "Bacon",
+                "value": "1,70"
+            },
+            {
+                "id": "13",
+                "name": "Pasta",
+                "value": "0,60"
+            },
+            {
+                "id": "14",
+                "name": "Peanut buttter",
+                "value": "3,80"
+            },
+            {
+                "id": "15",
+                "name": "Tea",
+                "value": "5,40"
+            },
+            {
+                "id": "16",
+                "name": "Salsa",
+                "value": "0,90"
+            },
+            {
+                "id": "17",
+                "name": "Onions",
+                "value": "3,30"
+            },
+            {
+                "id": "18",
+                "name": "Mozzarella",
+                "value": "1,50"
+            },
+            {
+                "id": "19",
+                "name": "Oregano",
+                "value": "1,50"
+            },
+            {
+                "id": "20",
+                "name": "Red wine",
+                "value": "8,90"
+            }
+        ]
+    }
+]

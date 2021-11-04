@@ -1,0 +1,85 @@
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 9vh - 10vh);
+  overflow-y: scroll;
+}
+.searchContentWrapper {
+  margin-top: 20px;
+}
+.searchCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchCardText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.searchArea {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+.searchFormDiv {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.searchLabels,
+.searchBar,
+.searchList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.searchLabels {
+  color: #055a00;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.searchBar {
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+  font-size: 18px;
+  padding: 10px;
+  height: 31px;
+  margin-bottom: 10px;
+}
+.searchBtns {
+  background-color: #055a00;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  width: 150px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.7s;
+}
+.searchBtns:hover {
+  background-color: #b60000;
+}
+.searchListTitle h4 {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
